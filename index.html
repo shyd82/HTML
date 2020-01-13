@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Cheat Sheet</title>
+	</head>
+	<body>
+		<!-- Headings -->
+		<h1>Heading one</h1>
+		<h2>Heading two</h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h6>
+
+		<!-- Paragraph -->
+		<p>
+			
+			Lorem	路是利用thymeleaf<strong>动态生成html页面的特点，在相对路径前动态添加一个项目名，</strong>不就解决了?其实用<em>jsp可以轻松做到，但是由于我的页面不是jsp页面，所以也不能使用这种方法。于是又进行了一番尝试，参考了很多</em>资料，终于找到了解决方案!
+
+方案3:直接利用thymeleaf的th:sr
+
+
+		</p>
+		<p>
+			路是利用thymeleaf动态生成html页面的特点，在相对路径前动态添加一个项目名，不就解决了?其实用jsp可以<a href="http://google.com" target="_blank">谷歌/古狗</a>，但是由于我的页面不是jsp页面，所以也不能使用这种方法。于是又进行了一番尝试，参考了很多资料，终于找到了解决方案!
+
+方案3:直接利用thymeleaf的th:sr
+
+		</p>
+		<ul>
+			<li>list item 1</li>
+			<li>list item 2</li>
+			<li>list item 3</li>
+			<li>list item 6</li>
+			<li>list item 7</li>
+		</ul>
+
+		<ol>
+			<li>list item 1   adjfkjfwief</li>
+			<li>list item 2</li>
+			<li>list item 3</li>
+			<li>list item 6</li>
+			<li>list item 7</li>
+		</ol>
+
+
+
+
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Bran Traversy</td>
+					<td>brand@somthing.com</td>
+					<td>35</td>
+				</tr>
+				<tr>
+					<td>Jone D</td>
+					<td>jone@somthing.com</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>Michael K</td>
+					<td>michael@somthing.com</td>
+					<td>17</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!-- form -->
+		<form action="process.Paragraph" method="post">
+			
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first-name">
+			</div>
+			<br>
+
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="last-name">
+			</div>
+			<br>
+				<label>Email address:</label>
+				<input type="text" name="Email">
+		
+
+		</form>
+
+		<div style="margin-top:500px"></div>
+	</body>
+</html>
